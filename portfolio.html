@@ -15,35 +15,32 @@
 <body>
     <!--HEADER-->
     <header class="page-header">
-        <nav class="page-nav">
-            <a class="logo link" href="./index.html"><span class="web-logo">Web</span>Studio</a>
-            <ul class="menu list">
-                <li class="menu-item">
-                    <a class="menu-link link" href="./index.html">Студия</a>
-                </li>
-
-                <li class="menu-item">
-                    <a class="menu-link link" href="">Портфолио</a>
-                </li>
-                <li class="menu-item">
-                    <a class="menu-link link" href="">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="list">
-            <li>
-                <a class="contact-phone-number link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="contact-phone-number link" href="tel:+38(096)1111111">+38 (096) 111 11 11</a>
-            </li>
-        </ul>
+        <div class="container page-header-container">
+            <nav class="page-nav">
+                <a class="logo link" href="./index.html"><span class="web-logo">Web</span>Studio</a>
+                <ul class="menu list">
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./index.html">Студия</a>
+                    </li>
+    
+                    <li class="menu-item">
+                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="contact-phone-number contact-margin link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-phone-number link" href="tel:+38(096)1111111">+38 (096) 111 11 11</a>
+        </div>
     </header>
     <main>
         <!--Секция "Кнопки навигации"-->
-        <section>
+        <section class="card-section">
+            <div class="container">
             <!--<h1>Кнопки навигации</h1>-->
-            <ul class="list">
+            <ul class="list device">
                 <li>
                     <button class="modal-btn" type="button">Все</button>
                 </li>
@@ -61,78 +58,98 @@
                 </li>
             </ul>
             <!--<h2>Иконки проектов</h2>-->
-            <ul class="list">
+            <ul class="list device">
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon1.jpg" alt="Ноутбук с открытой страницей сайта" width="370">
-                        <h3 class="project-name">Технокряк</h3>
-                        <p class="project">Веб-сайт</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Технокряк</h3>
+                            <p class="project">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon2.jpg" alt="Игра двоих баскетболистов" width="370">
-                        <h3 class="project-name">Постер New Orlean vs Golden Star</h3>
-                        <p class="project">Дизайн</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Постер New Orlean vs Golden Star</h3>
+                            <p class="project">Дизайн</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon3.jpg" alt="Логотип ресторана Seafood" width="370">
-                        <h3 class="project-name">Ресторан Seafood</h3>
-                        <p class="project">Приложение</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Ресторан Seafood</h3>
+                            <p class="project">Приложение</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon4.jpg" alt="Накладные наушники" width="370">
-                        <h3 class="project-name">Проект Prime</h3>
-                        <p class="project">Маркетинг</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Проект Prime</h3>
+                            <p class="project">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon5.jpg" alt="Две коробки" width="370">
-                        <h3 class="project-name">Проект Boxes</h3>
-                        <p class="project">Приложение</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Проект Boxes</h3>
+                            <p class="project">Приложение</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon6.jpg" alt="Изображон копьютер" width="370">
-                        <h3 lang="en" class="project-name">Inspiration has no Borders</h3>
-                        <p class="project">Веб-сайт</p>
+                        <div class="card-content">
+                            <h3 lang="en" class="project-name">Inspiration has no Borders</h3>
+                            <p class="project">Веб-сайт</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon7.jpg" alt="Открытая книга" width="370">
-                        <h3 class="project-name">Издание Limited Edition</h3>
-                        <p class="project">Дизайн</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Издание Limited Edition</h3>
+                            <p class="project">Дизайн</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon8.jpg" alt="Картинка логотип Проект LAB" width="370">
-                        <h3 class="project-name">Проект LAB</h3>
-                        <p class="project">Маркетинг</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Проект LAB</h3>
+                            <p class="project">Маркетинг</p>
+                        </div>
                     </a>
                 </li>
                 <li>
                     <a class="link" href="">
                         <img src="./images/imgikon9.jpg" alt="Печатает на ноутбуке" width="370">
-                        <h3 class="project-name">Growing Business</h3>
-                        <p class="project">Приложение</p>
+                        <div class="card-content">
+                            <h3 class="project-name">Growing Business</h3>
+                            <p class="project">Приложение</p>
+                        </div>
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <!--Подвал-->
     <footer class="footer-color">
+        <div class="container">
         <a class="logo-footer link" href="./index.html"><span class="web-logo">Web</span>Studio</a>
         <address>
-            <ul class="list">
+            <ul class="list list-footer">
                 <li>
                     <a class="link link-theme-light" href="">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
@@ -144,6 +161,7 @@
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 

@@ -11,9 +11,24 @@
 body{
     font-family:var(--primary-font);
 }
-/*=======================COMPONENTS=============== */
 
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*=======================COMPONENTS=============== */
 .modal-btn {
+   /* min-width: 200px;*/
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -28,6 +43,7 @@ body{
     color: #FFFFFF;
 }
 .toptitle {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -46,6 +62,38 @@ body{
 /*=======================/COMPONENTS=============== */
 
 /*=======================HEADER=============== */
+header{
+    border-bottom: 1px solid #ECECEC;
+}
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.page-header-container{
+    display:flex;
+    align-items: center;
+}
+.page-nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 90px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item:not(:last-child){
+    margin-right: 50px;
+}
+.menu-link{
+    display: flex;
+}
+.page-header{
+    background: #FFFFFF;
+}
+
 .menu-link{
     font-weight: 500;
     font-size: 14px;
@@ -57,12 +105,16 @@ body{
 .menu-link:focus{
     color:var(--accent-color);
 }
+.contact-margin{
+    margin-left: auto;
+    margin-right: 50px;
+}
 .contact-phone-number{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;;
+    color: #757575;
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus{
@@ -70,6 +122,7 @@ body{
 }
 /*=======================/HEADER=============== */
 .main-title{
+    padding-top: 200px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -77,6 +130,10 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.btn{
+    margin-top: 30px;
+    margin-bottom: 200px;
 }
 
 .title{
@@ -107,6 +164,14 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.logo-footer{
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.list-footer{
+    padding-bottom: 60px;
+}
 .footer-color{
 background: #2F303A;}
 
@@ -128,10 +193,13 @@ background: #2F303A;}
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 .hero{
-background-color: #2F303A;
+    background-color: #2F303A;
+    text-align: center;
 }
 .project-name{
+    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -139,13 +207,60 @@ background-color: #2F303A;
     color: #212121;
 }
 .project{
+    margin-left: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
+.our-team{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.card-section{
+    padding-bottom: 186px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+.position{
+    margin-bottom: 50px;
+}
+.flex-container{
+    margin-top: 94px;
+    display: flex;
+    padding-top: 94;
+    gap: 30px;
+    flex-basis: calc((100% - 60px) / 3);
+}
+.device{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 34px;
+}
+.card{
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.card-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
 .teame{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -153,12 +268,14 @@ background-color: #2F303A;
     color: #212121;
 }
 .profession{
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 h1,
 h2,
 h3,
@@ -172,7 +289,10 @@ ol{
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
+    padding-inline-start: 0px;
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
