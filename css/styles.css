@@ -23,10 +23,10 @@ body{
 /*=======================COMPONENTS=============== */
 .modal-btn {
    /* min-width: 200px;*/
-    padding-top: 8px;
-    padding-left: 30px;
-    padding-bottom: 8px;
-    padding-right: 30px;
+    padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 6px;
+    padding-right: 22px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
@@ -122,7 +122,6 @@ header{
 }
 /*=======================/HEADER=============== */
 .main-title{
-    padding-top: 200px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -131,9 +130,15 @@ header{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.section-description-width{
+    width: 270px;
+}
+.description{
+    padding-top:94px ;
+    padding-bottom:94px ;
+}
 .btn{
     margin-top: 30px;
-    margin-bottom: 200px;
 }
 
 .title{
@@ -166,14 +171,16 @@ header{
 }
 .logo-footer{
     display: block;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .list-footer{
-    padding-bottom: 60px;
+    margin-bottom: 9px;
 }
 .footer-color{
-background: #2F303A;}
+    padding-top:60px ;
+    padding-bottom:60px ;
+    background: #2F303A;
+}
 
 .link-theme-dark{
     font-family: 'Roboto', sans-serif;
@@ -197,9 +204,10 @@ background: #2F303A;}
 .hero{
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .project-name{
-    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -207,7 +215,6 @@ background: #2F303A;}
     color: #212121;
 }
 .project{
-    margin-left: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -220,21 +227,27 @@ background: #2F303A;}
     padding-bottom: 94px;
 }
 .card-section{
-    padding-bottom: 186px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .section{
-    padding-top: 94px;
     padding-bottom: 94px;
     }
 .position{
     margin-bottom: 50px;
 }
 .flex-container{
-    margin-top: 94px;
     display: flex;
-    padding-top: 94;
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);
+}
+.btn-device{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 50px;
 }
 .device{
     display: flex;
@@ -242,7 +255,6 @@ background: #2F303A;}
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 34px;
 }
 .card{
     padding-bottom: 30px;
@@ -252,8 +264,10 @@ background: #2F303A;}
 }
 
 .card-content{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
